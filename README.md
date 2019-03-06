@@ -1,19 +1,13 @@
-# gatsby-starter-dimension
+# Personal Website
 
-**This is a starter for Gatsby.js V2.**
+A personal website made using Gatsby.js V2 with React. Based on the Gatsby.js V2 starter, Dimension, designed by HTML5 UP. 
 
-**The older V1 version of this starter can be found on the v1 branch:**
+## Live Site
 
-Gatsby.js V2 starter based on the Dimension site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
-
-## Preview
-
-https://gatsby-dimension.surge.sh/
+View the site at https://kunal.app or https://kunalsinha.info
 
 ## Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-dimension https://github.com/codebushi/gatsby-starter-dimension`
+Clone the repository `git clone https://github.com/KunalSinha7/personal-website-3.0.git`
 
 Run `gatsby develop` in the terminal to start the dev site.
