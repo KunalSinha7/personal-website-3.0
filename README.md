@@ -10,6 +10,6 @@ View the site at https://kunal.app or https://kunalsinha.info
 
 Clone the repository `git clone https://github.com/KunalSinha7/personal-website-3.0.git`
 
-Install dependencies using `npm install`
+Install the dependencies using `npm install`. This will create the node_modules folder.
 
 Run `gatsby develop` in the terminal to start the dev site.
