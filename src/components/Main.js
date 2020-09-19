@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import profilepic from '../images/profile.jpg'
-import workimg from '../images/work.jpg'
-import purdue from '../images/purdue.jpg'
+import profilepic from '../images/profile2.webp'
+import working from '../images/work.webp'
+import purdue from '../images/purdue.webp'
 
 class Main extends React.Component {
   render() {
@@ -15,15 +15,19 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
-          <span className="image main"><img src={profilepic} alt="" /></span>
+          <span className="image main"><img src={profilepic} alt=""/></span>
           <p>Hi, I'm Kunal Sinha. I'm a software developer, tech enthusiast, student, leader, and soccer fan.</p>
-          <p>When I'm on campus you can find me in class, studying, or attending meetings as an organizer for <a href="https://purduehackers.com">Purdue Hackers</a>. In my free time, you might find me working on a project at a <a href="https://mlh.io/">hackathon</a>, reading articles from <a href="https://www.theverge.com">The Verge</a>, or watching soccer games (#HALAMADRID).</p>          
+          <p>I just moved to Boston, MA to start my first full-time job as a full-stack software engineer at CarGurus. For now, my main hobby is explore my new city and discover what life is like in such a diverse and large city. In my free time, you might find me working on a project at a <a href="https://mlh.io/">hackathon</a>, reading articles from <a href="https://www.theverge.com">The Verge</a>, or watching soccer games (#HALAMADRID).</p>          
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
-          <span className="image main"><img src={workimg} alt="" /></span>
+          <span className="image main"><img src={working} alt="" /></span>
+          <h3><a href="https://www.cargurus.com/">CarGurus</a></h3>
+          <h4>Full-Stack Software Engineer</h4>
+          <p> Starting in August 2020, I joined CarGurus for my first full-time job as a Full-Stack Software Engineer. So far, I have been learning as much as I can about the industry and various tech that is used. 
+          </p>
           <h3>Cerner Corporation</h3>
           <h4>Software Intern</h4>
           <p> In the summer of 2019, I interned at Cerner Corporation as a software intern. Over the course of this internship, I got a chance to contribute to the development of a new product from the bottom up. 
@@ -55,14 +59,8 @@ class Main extends React.Component {
           <h2 className="major">Education</h2>
           <span className="image main"><img src={purdue} alt="" /></span>
           <h3>Purdue University</h3>
-          <p>I am currently pursuing a Bachelor's Degree in <strong>Computer Science</strong> with concentrations in <em>Machine Intelligence, Software Development, and Database and Information Systems</em> with goal of graduating in <b>May 2020</b>.</p>
-          <p>Current Coursework (as of Jan 2020):</p>
-          <ul>
-            <li>CS 40700 - Software Engineer Senior Project</li>
-            <li>CS 40800 - Software Testing</li>
-            <li>PHIL 11000 - Big Questions: Introduction to Philosophy</li>
-            <li>STAT 41600 - Probability</li>
-          </ul>
+          <p>I received Bachelor's Degree in <strong>Computer Science</strong> with concentrations in <em>Software Development and Database and Information Systems</em> graduating in <b>May 2020</b> - unfortunately in the midst of a pandemic :(</p>
+          <p>At Purdue, you could have found me involved in projects as president of <a href="https://purduehackers.com">Purdue Hackers</a>, wondering about the innovations in bioengineering within IEEE, watching basketball games at Mackey Arena, or exploring the different cultures around Purdue.</p>
           <p>Past Coursework - Computer Science Classes:</p>
           <ul>
             <li>CS 18000 - Problem Solving and Object-Oriented Programming</li>
@@ -72,11 +70,13 @@ class Main extends React.Component {
             <li>CS 25100 - Data Structures and Algorithms</li>
             <li>CS 25200 - Systems Programming</li>
             <li>CS 30700 - Software Engineering</li>
-            <li>CS 37300 - Data Mining and Machine Learning</li>
             <li>CS 34800 - Information Systems</li>
             <li>CS 35400 - Operating Systems</li>
             <li>CS 35500 - Introduction to Cryptography</li>
+            <li>CS 37300 - Data Mining and Machine Learning</li>
             <li>CS 38100 - Introduction to the Analysis of Algorithms</li>
+            <li>CS 40700 - Software Engineer Senior Project</li>
+            <li>CS 40800 - Software Testing</li>
             <li>CS 44800 - Introduction to Relational Database Systems</li>
             <li>CS 47100 - Artificial Intelligence</li>
             <li>CS 49000 - Computational Genomics</li>
@@ -94,17 +94,13 @@ class Main extends React.Component {
             <li>MA 16200 - Plane Analytic Geometry And Calculus II</li>
             <li>MA 26100 - Multivariate Calculus</li>
             <li>MA 26500 - Linear Algebra</li>
+            <li>PHIL 11000 - Big Questions: Introduction to Philosophy</li>
             <li>SOC 10000 - Introduction to Sociology</li>
+            <li>STAT 41600 - Probability</li>
             <li>STAT 51100 - Statistical Methods</li>
           </ul>
           {close}
         </article>
-
-        <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Contact</h2>
-          {close}
-        </article>
-
       </div>
     )
   }
